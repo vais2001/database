@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'database1.wsgi.application'
 #         'ENGINE': 'django.db.backends.postgresql',  # Use the appropriate database engine
 #         'NAME':  'learningbase',
 #         'USER': 'ongraph1',
-#         'PASSWORD': '1999',  # Enter the password for the user
+#         'PASSWORD': '1999',  
 #         'HOST': '127.0.0.1',      # Leave empty for localhost
 #         'PORT': '5432'    # Leave empty for default port
 #     },
@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'database1.wsgi.application'
 #         'PASSWORD': '1999',  # Enter the password for the user
 #         'HOST': '127.0.0.1',      # Leave empty for localhost
 #         'PORT': '5432',      # Leave empty for default port
-    # }
+#     }
 # }
 
 
