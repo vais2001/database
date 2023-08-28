@@ -2,7 +2,9 @@ asgiref==3.7.2
 asttokens==2.2.1
 backcall==0.2.0
 backports.zoneinfo==0.2.1
+binary==1.0.0
 comm==0.1.4
+Command==0.1.0
 debugpy==1.6.7.post1
 decorator==5.1.1
 Django==4.2.4
@@ -25,6 +27,7 @@ pickleshare==0.7.5
 platformdirs==3.10.0
 prompt-toolkit==3.0.39
 psutil==5.9.5
+psycopg==3.1.10
 psycopg2-binary==2.9.7
 ptyprocess==0.7.0
 pure-eval==0.2.2

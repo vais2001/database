@@ -81,24 +81,24 @@ WSGI_APPLICATION = 'database1.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',  # Use the appropriate database engine
-        'NAME':  'learningbase',
-        'USER': 'ongraph1',
-        'PASSWORD': '1999',  # Enter the password for the user
-        'HOST': '127.0.0.1',      # Leave empty for localhost
-        'PORT': '5432'    # Leave empty for default port
-    },
-    'postgres': {
-        'ENGINE': 'django.db.backends.postgresql',  # Use the appropriate database engine
-        'NAME': 'postgres',
-        'USER': 'ongraph1',
-        'PASSWORD': '1999',  # Enter the password for the user
-        'HOST': '127.0.0.1',      # Leave empty for localhost
-        'PORT': '5432',      # Leave empty for default port
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',  # Use the appropriate database engine
+#         'NAME':  'learningbase',
+#         'USER': 'ongraph1',
+#         'PASSWORD': '1999',  # Enter the password for the user
+#         'HOST': '127.0.0.1',      # Leave empty for localhost
+#         'PORT': '5432'    # Leave empty for default port
+#     },
+#     'postgres': {
+#         'ENGINE': 'django.db.backends.postgresql',  # Use the appropriate database engine
+#         'NAME': 'postgres',
+#         'USER': 'ongraph1',
+#         'PASSWORD': '1999',  # Enter the password for the user
+#         'HOST': '127.0.0.1',      # Leave empty for localhost
+#         'PORT': '5432',      # Leave empty for default port
+    # }
+# }
 
 
 # Password validation
